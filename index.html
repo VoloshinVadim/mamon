@@ -1,262 +1,176 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mamon Agency</title>
-  
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="image.png" href="..//mamon/favicon.ico">
 </head>
 <body>
-<div class="home-1">
-
-  <!-- Header Section -->
-  <header class="header-153">
-    <div class="logo-154">
-      <div class="mamon-logo-155">
-        <div class="page-1-156">
-          <div class="group-2-157">
-            <img src="images/combined-shape-158.svg" class="combined-shape-158" alt="Mamon Logo Shape 1" />
-            <img src="images/combined-shape-159.svg" class="combined-shape-159" alt="Mamon Logo Shape 2" />
-          </div>
+    <header>
+        <div class="header">
+            <a href="" class="logo">
+                <span class="logo_img"></span>
+                <span class="logo_text ubuntu-bold">mamon</span>
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Clients</a></li>
+                    <li><a href="">Our team</a></li>
+                    <li><button class="nav_btn" type="button">Contact us</button></li>
+                </ul>
+            </nav>
         </div>
-      </div>
-      <p class="text-160"><span class="text-rgb-32-32-32">mamon</span></p>
+    </header>
+    <div class="page">
+        <div class="wrap">
+            <h1 class="title-main">We're an independent development agency.</h1>
+            <p class="text-main">We understand the intricacies of web development inside-out. That's why we build rock-solid Mobile and Web applications enriched with user-centered visual experiences.</p>
+            <button type="button" class="button">Contact Us</button>
+        </div>
     </div>
-    <nav class="menu-161">
-      <p class="text-162"><a href="#services"><span class="text-rgb-32-32-32">Services</span></a></p>
-      <p class="text-163"><a href="#clients"><span class="text-rgb-32-32-32">Clients</span></a></p>
-      <p class="text-164"><a href="#team"><span class="text-rgb-32-32-32">Our team</span></a></p>
-      <a href="#contact" class="group-165">
-        <!-- SVG rectangle-166 removed, background will be CSS -->
-        <p class="text-167"><span class="text-white">Contact Us</span></p>
-      </a>
-    </nav>
-  </header>
-
-  <!-- Hero Content Section -->
-  <main>
-    <section id="hero" class="content-81">
-      <div class="text-82">
-        <h1 class="text-83"><span class="text-rgb-32-32-32">We're an independent development agency.</span></h1>
-        <p class="text-84"><span class="text-rgb-79-79-79">We understand the intricacies of web development inside-out. That's why we build rock-solid Mobile and Web applications enriched with user-centered visual experiences.</span></p>
-      </div>
-      <a href="#contact" class="button-85">
-        <!-- div rectangle-86 removed, background will be CSS -->
-        <p class="text-87"><span class="text-white">Contact Us</span></p>
-      </a>
-    </section>
-
-    <!-- Our Services Section -->
-    <section id="services">
-      <div class="group-101 section-title">
-        <div class="rectangle-103"></div>
-        <h2 class="text-102"><span class="text-rgb-194-194-194">OUR SERVICES</span></h2>
-        <div class="rectangle-104"></div>
-      </div>
-      <div class="services-88">
-        <div class="smartphone-114">
-          <div class="phone-new-115">
-            <img src="images/rectangle-stroke-116.svg" class="rectangle-stroke-116" alt="smartphone outline" />
-            <div class="rectangle-117"></div>
-            <div class="rectangle-118"></div>
-            <img src="images/ellipse-119.svg" class="ellipse-119" alt="smartphone button" />
-          </div>
+    <div class="page page-top">
+        <div class="wrap">
+            <h2>OUR SERVICES</h2>
+            <div class="services">
+                <div class="services-item">
+                    <div class="services_img"><img src="./img/smartphone.svg" alt=""></div>
+                    <div class="services_text">
+                        <h3>Mobile Development</h3>
+                        <p>We develop mobile apps for all contemporary mobile platforms. Mamon team builds native and cross-platform solutions.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services_img"><img src="./img/monitor.svg" alt=""></div>
+                    <div class="services_text">
+                        <h3>Web Development</h3>
+                        <p>Mamon offers full range of services from various CMS and frameworks based websites to complex ERP/CRM solutions and e-commerce stores.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services_img"><img src="./img/layers.svg" alt=""></div>
+                    <div  class="services_text">
+                        <h3>Product Design</h3>
+                        <p>We create design given the product audience, goal, business domain, technology and the platform for the solution.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services_img"><img src="./img/test.svg" alt=""></div>
+                    <div class="services_text">
+                        <h3>Quality Assurance</h3>
+                        <p>Our QA team ensures high standard of quality of products delivered.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="1-98">
-          <h3 class="text-99"><span class="text-black">Mobile Development</span></h3>
-          <p class="text-100"><span class="text-rgb-178-178-178">We develop mobile apps for all contemporary 
-          mobile platforms. Mamon team builds 
-          native and cross-platform solutions.</span></p>
-        </div>
-        <div class="monitor-105">
-          <img src="images/union-106.svg" class="union-106" alt="monitor icon" />
-        </div>
-        <div class="2-95">
-          <h3 class="text-97"><span class="text-black">Web Development</span></h3>
-          <p class="text-96"><span class="text-rgb-178-178-178">Mamon offers full range of services from various
-          CMS and frameworks based websites to complex
-          ERP/CRM solutions and e-commerce stores.</span></p>
-        </div>
-        <div class="layers-107">
-          <div class="new-108">
-            <img src="images/polygon-109.svg" class="polygon-109" alt="layer icon part 1" />
-            <img src="images/polygon-110.svg" class="polygon-110" alt="layer icon part 2" />
-            <img src="images/polygon-111.svg" class="polygon-111" alt="layer icon part 3" />
-          </div>
-        </div>
-        <div class="3-92">
-          <h3 class="text-94"><span class="text-black">Product Design</span></h3>
-          <p class="text-93"><span class="text-rgb-178-178-178">We create design given the product audience,
-          goal, business domain, technology and
-          the platform for the solution.</span></p>
-        </div>
-        <div class="test-112">
-          <img src="images/union-113.svg" class="union-113" alt="checklist icon" />
-        </div>
-        <div class="4-89">
-          <h3 class="text-91"><span class="text-black">Quality Assurance</span></h3>
-          <p class="text-90"><span class="text-rgb-178-178-178">Our QA team ensures high standard of 
-          quality of products delivered.
-          </span></p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Our Clients Section -->
-    <section id="clients" class="clients-120">
-      <div class="group-121 section-title">
-        <div class="rectangle-123"></div>
-        <h2 class="text-122"><span class="text-rgb-194-194-194">OUR CLIENTS</span></h2>
-        <div class="rectangle-124"></div>
-      </div>
-      <div class="group-3-125">
-        <div class="logo-shutterfly-126">
-          <img src="images/vector-127.svg" class="vector-127" alt="Shutterfly Logo" />
-        </div>
-        <div class="logo-decos-128">
-          <img src="images/vector-129.svg" class="vector-129" alt="Decos Logo" />
-        </div>
-        <div class="logo-sap-130">
-          <img src="images/vector-131.svg" class="vector-131" alt="SAP Logo" />
-        </div>
-        <div class="node-132"> <!-- Assuming Node / Spider Strategies from image -->
-          <img src="images/vector-133.svg" class="vector-133" alt="Spider Strategies Logo" />
-        </div>
-        <div class="logo-tiqets-134">
-          <img src="images/vector-135.svg" class="vector-135" alt="Tiqets Logo" />
-        </div>
-        <div class="logo-redkix-136">
-          <img src="images/vector-137.svg" class="vector-137" alt="Redkix Logo" />
-        </div>
-        <div class="logo-tripadvisor-138">
-          <img src="images/vector-139.svg" class="vector-139" alt="Tripadvisor Logo" />
-        </div>
-        <div class="logo-hotelchamp-140">
-          <img src="images/vector-141.svg" class="vector-141" alt="Hotelchamp Logo" />
-        </div>
-        <div class="logo-nos-142"> <!-- NOS Logo -->
-          <div class="group-143">
-            <img src="images/vector-144.svg" class="vector-144" alt="NOS Logo part 1" />
-            <img src="images/vector-145.svg" class="vector-145" alt="NOS Logo part 2" />
-            <img src="images/vector-146.svg" class="vector-146" alt="NOS Logo part 3" />
-          </div>
-        </div>
-        <div class="logo-flitsmeister-147">
-          <img src="images/vector-148.svg" class="vector-148" alt="Flitsmeister Logo" />
-        </div>
-        <div class="logo-lightspeed-149">
-          <img src="images/vector-150.svg" class="vector-150" alt="Lightspeed Logo" />
-        </div>
-      </div>
-      <div class="logo-trvl-151">
-        <img src="images/vector-152.svg" class="vector-152" alt="TRVL Logo" />
-      </div>
-    </section>
-
-    <!-- Our Team Section -->
-    <section id="team">
-      <div class="group-77 section-title">
-        <div class="rectangle-79"></div>
-        <h2 class="text-78"><span class="text-rgb-194-194-194">OUR TEAM</span></h2>
-        <div class="rectangle-80"></div>
-      </div>
-      <div class="our-tema-13">
-        <div class="vadim-14">
-          <div class="group-17">
-            <img src="images/-19.png" class="-19" alt="Photo of Vadim" />
-          </div>
-          <h3 class="text-15"><span class="text-rgb-32-32-32">Vadim</span></h3>
-          <p class="text-16"><span class="text-rgb-178-178-178">Managing Director</span></p>
-        </div>
-        <div class="sergey-20">
-          <div class="group-23">
-            <img src="images/sergey_loysha-25.png" class="sergey_loysha-25" alt="Photo of Sergey" />
-            <!-- Removed redundant pky2tl5tfkw-26.png -->
-          </div>
-          <h3 class="text-21"><span class="text-rgb-32-32-32">Sergey</span></h3>
-          <p class="text-22"><span class="text-rgb-178-178-178">Technology Director</span></p>
-        </div>
-        <div class="andrey-27">
-          <div class="group-30">
-            <img src="images/andrey_pitunov-32.png" class="andrey_pitunov-32" alt="Photo of Andrey" />
-            <!-- Removed redundant 1-33.png -->
-          </div>
-          <h3 class="text-28"><span class="text-rgb-32-32-32">Andrey</span></h3>
-          <p class="text-29"><span class="text-rgb-178-178-178">Front-end Developer</span></p>
-        </div>
-        <div class="alex-34">
-          <div class="group-37">
-            <img src="images/alex_tukaylo-39.png" class="alex_tukaylo-39" alt="Photo of Alex" />
-            <!-- Removed redundant image-40.png, a35exszak9o-41.png -->
-          </div>
-          <h3 class="text-35"><span class="text-rgb-32-32-32">Alex</span></h3>
-          <p class="text-36"><span class="text-rgb-178-178-178">Front-end Developer</span></p>
-        </div>
-        <div class="agne-42"> <!-- Renamed from Agneshka to Agne to match image more closely -->
-          <div class="group-45">
-             <img src="images/agneshka_maksimik-48.png" class="agneshka_maksimik-48" alt="Photo of Agneshka" /> <!-- Kept original filename for image -->
-            <!-- Removed redundant image-47.png -->
-          </div>
-          <h3 class="text-43"><span class="text-rgb-32-32-32">Agneshka</span></h3> <!-- Display name can be different -->
-          <p class="text-44"><span class="text-rgb-178-178-178">Mobile Developer</span></p>
-        </div>
-        <div class="dzima-49"> <!-- Renamed from Dmitry to Dzima -->
-          <div class="group-52">
-            <img src="images/dmitry_shindin-54.png" class="dmitry_shindin-54" alt="Photo of Dmitry" />
-             <!-- Removed redundant dmitry_shindin-2-55.png -->
-          </div>
-          <h3 class="text-50"><span class="text-rgb-32-32-32">Dmitry</span></h3> <!-- Display name can be different -->
-          <p class="text-51"><span class="text-rgb-178-178-178">Back-end Developer</span></p>
-        </div>
-        <div class="artyom-56">
-          <div class="group-59">
-            <img src="images/artyom_khomyakov-62.png" class="artyom_khomyakov-62" alt="Photo of Artyom" />
-            <!-- Removed redundant image-2-61.png -->
-          </div>
-          <h3 class="text-57"><span class="text-rgb-32-32-32">Artyom</span></h3>
-          <p class="text-58"><span class="text-rgb-178-178-178">Back-end Developer</span></p>
-        </div>
-        <div class="evgeny-63">
-          <div class="group-66">
-            <img src="images/nmuqpfm2pzk-69.png" class="nmuqpfm2pzk-69" alt="Photo of Evgeny" />
-            <!-- Removed redundant image-2-68.png -->
-          </div>
-          <h3 class="text-64"><span class="text-rgb-32-32-32">Evgeny</span></h3>
-          <p class="text-65"><span class="text-rgb-178-178-178">Product Designer</span></p>
-        </div>
-        <div class="tom-70">
-          <div class="group-73">
-            <img src="images/tomash_svorobovich-75.png" class="tomash_svorobovich-75" alt="Photo of Tom" />
-            <!-- Removed redundant tomash_svorobovich-2-76.png -->
-          </div>
-          <h3 class="text-71"><span class="text-rgb-32-32-32">Tom</span></h3>
-          <p class="text-72"><span class="text-rgb-178-178-178">Product Designer</span></p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer Section -->
-  <footer class="footer-2-wrapper">
-    <div class="footer-2">
-      <div class="page-1-9"> <!-- Logo moved first -->
-        <div class="group-2-10">
-          <img src="images/combined-shape-11.svg" class="combined-shape-11" alt="Mamon Footer Logo Shape 1" />
-          <img src="images/combined-shape-12.svg" class="combined-shape-12" alt="Mamon Footer Logo Shape 2" />
-        </div>
-      </div>
-      <div class="social-icons-4"> <!-- Social icons second -->
-        <a href="#" aria-label="GitHub" class="text-5"><span class="text-rgb-178-178-178"></span></a>
-        <a href="#" aria-label="Behance" class="text-6"><span class="text-rgb-178-178-178"></span></a>
-        <a href="#" aria-label="LinkedIn" class="text-7"><span class="text-rgb-178-178-178"></span></a>
-        <a href="#" aria-label="Dribbble or Slack" class="text-8"><span class="text-rgb-178-178-178"></span></a> <!-- Unicode f1cb is Slack -->
-      </div>
-      <!-- rectangle-3 was already display:none -->
     </div>
-  </footer>
-
-</div>
-
+    <div class="page page-top">
+        <div class="wrap">
+            <h2>OUR CLIENTS</h2>
+            <div class="clients">
+                <div class="client-item"><img src="./img/logo-lightspeed.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-trvl.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-spider-strategies.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-tripadvisor.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-shutterfly.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-decos.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-tiqets.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-hotelchamp.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-flitsmeister.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-sap.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-redkix.svg" alt=""></div>
+                <div class="client-item"><img src="./img/logo-nos.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="page page-top">
+        <div class="wrap">
+            <h2>OUR TEAM</h2>
+            <div class="team">
+                <div class="team-item">
+                    <img src="img/Vadim.png" alt="">
+                <div>
+                    <h3>Vadim</h3>
+                    <p>Managing Director</p>
+                </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Sergey.png" alt="">
+                <div>
+                    <h3>Sergey</h3>
+                    <p>Technology Director</p>
+                </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Andrey.png" alt="">
+                <div>
+                    <h3>Andrey</h3>
+                    <p>Front-end Developer</p>
+                </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Alex.png" alt="">
+                <div>
+                    <h3>Alex</h3>
+                    <p>Front-end Developer</p>
+                </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Agneshka.png" alt="">
+                <div>
+                    <h3>Agneshka</h3>
+                    <p>Mobile Developer</p>
+                </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Dmitry.png" alt="">
+                <div>
+                    <h3>Dmitry</h3>
+                    <p>Back-end Developer</p>
+                </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Artyom.png" alt="">
+                <div>
+                    <h3>Artyom</h3>
+                    <p>Back-end Developer</p>
+                </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Evgeny.png" alt="">
+                <div>
+                    <h3>Evgeny</h3>
+                    <p>Product Designer</p>
+                </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Tom.png" alt="">
+                <div>
+                    <h3>Tom</h3>
+                    <p>Product Designer</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="wrap box-footer">
+                <a href=""><img src="img/logo.svg" alt=""></a>
+                <ul class="social">
+                    <li><a href="" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-codepen"></i></a></li>
+                </ul>
+            </div>
+          
+        </div>
+    </footer>
 </body>
 </html>
